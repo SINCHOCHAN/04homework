@@ -1,0 +1,95 @@
+#quizboard {
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 30%;
+    width: 50%;
+    height: 450px;
+    display: none;
+    background-color: aqua;
+}
+
+#actualQuestion {
+    font-size: 35px;
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: blueviolet;
+    border-radius: 10px;
+    color:white;
+    padding: 15px 40px;
+    font-size: 25px;
+    border: none;  
+    margin: 40px;
+    display: block; 
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 85px;
+    font-style: bold;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 24px;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#startbtn {
+    background-color: blueviolet;
+    font-size: 32px;
+    padding: 14px 40px;
+    border-radius: 12px; 
+    color: white;   
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display:none;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ #timer {       
+    font-size: 30px;  
+    font-family: sans-serif;     
+}
+
+#highscore {
+    font-size: 30px;    
+    font-family: sans-serif;
+}
+
+#submitInitials {
+    background-color:navy;
+    border-radius: 10px;
+    color:white;
+    padding: 10spx;
+    font-size: 24px;
+    border-color: white;    
+    font-family: sans-serif;   
+}
+
+input {
+    padding: 15px 2px;
+    font-family: sans-serif;
+    font-size: 25px;
+    width: 100px;
+}

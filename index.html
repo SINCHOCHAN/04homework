@@ -2,18 +2,53 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Code Quiz</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz Challenge</title>
+
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css">
+
 </head>
-
 <body>
- 
+    <div class="container">
+        <div class="top">
+            <div id="highscore">Highscore</div> 
+                <div id = "scorePage" style="display: none"></div>               
+            <div id="timer">Timer</div>
+        </div>
+    </div>
+    <div id="startpg">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try your best to answer those questions within the time limit. If you choise the warong answer, 
+            you will be taken of 10seconds.</p>
+        <br>
 
+    </div>
+    <div class="container">
+        <div id="quizboard" class="hide">
+            <div id="actualQuestion">Question</div>
+            <br>
+            <div id="answerBtns">
+                <button id="btn0" class="btn">Answer 1</button>
+                <button id="btn1" class="btn">Answer 2</button>
+                <button id="btn2" class="btn">Answer 3</button>
+                <button id="btn3" class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="startbtn" onclick="startquiz()">Start Quiz</button>
 
-  <script src="./script.js"></script>
+            <a href="./index.html">Play Again</a>
+            <div id="highscores">
+        
+            </div>
+        </div>       
+    </div>
+
+    <script src="./Assets/questions.js"></script>
+    <script src="./Assets/code.js"></script>
+    <script src="./Assets/highscore.js"></script>
 </body>
 
 </html>
