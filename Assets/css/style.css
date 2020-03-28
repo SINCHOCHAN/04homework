@@ -3,13 +3,13 @@
     margin-top: 100px;
     margin-left: 30%;
     width: 50%;
-    height: 450px;
+    height: 500px;
     display: none;
     background-color: aqua;
 }
 
 #actualQuestion {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     margin: 30px;
     font-weight: bold;
@@ -17,13 +17,13 @@
 }
 
 #btn0, #btn1, #btn2, #btn3 {
-    background-color: blueviolet;
+    background-color: purple;
     border-radius: 10px;
     color:white;
     padding: 15px 40px;
-    font-size: 25px;
+    font-size: 15px;
     border: none;  
-    margin: 40px;
+    margin: 35px;
     display: block; 
     font-family: sans-serif;
 }
@@ -46,7 +46,7 @@ p {
 
 #startbtn {
     background-color: blueviolet;
-    font-size: 32px;
+    font-size: 30px;
     padding: 14px 40px;
     border-radius: 12px; 
     color: white;   

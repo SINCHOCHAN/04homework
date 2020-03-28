@@ -12,6 +12,7 @@ function startquiz() {
   writeButton()
   timer()
 }
+
 var timeInterval
 var questionPostion = 0
 var timeLeft = questions.length * 15
@@ -84,11 +85,14 @@ function scoreResults() {
   }
 
   //save to local storage
+  // Get stored highscore from localStorage
+  // Parsing the JSON string to an object
+   // Stringify and set scorelist in localStorage to highscore array
   var highscore = {userName : user, score: score}
   scoreList.push(highscore)
   localStorage.setItem("scoreList", JSON.stringify(scoreList));
   console.log(scoreList);
 
-  window.location. href ="./highscore.html"; 
+  window.location. href ="./index.html"; 
   
   }

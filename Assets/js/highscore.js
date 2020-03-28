@@ -1,9 +1,15 @@
+
+
 function startUp() {
     var localScore = localStorage.getItem('scoreList')
     console.log(localScore)
     var scoreAsArray = JSON.parse(localScore)
 
-
+  //save to local storage
+  // Get stored highscore from localStorage
+  // Parsing the JSON string to an object
+  // Stringify and set scorelist in localStorage to highscore array
+  
     var scoreList = JSON.parse(localStorage.getItem("scoreList"))
     console.log(scoreList)
     var highScoreDiv = document.getElementById('highscores')
